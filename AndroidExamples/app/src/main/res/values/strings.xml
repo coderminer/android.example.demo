@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">com.android.example</string>
+    <string name="intent">Intent传递对象</string>
+</resources>
