@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.android.example.assets.AssetsActivity;
+import com.android.example.camera.CameraFlash;
 import com.android.example.intent.IntentActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mIntent;
     private Button mAssets;
+    private Button mCamera;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +22,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mIntent = (Button)findViewById(R.id.intent);
         mAssets = (Button)findViewById(R.id.assets);
+        mCamera = (Button)findViewById(R.id.camera);
 
         mIntent.setOnClickListener(this);
         mAssets.setOnClickListener(this);
+        mCamera.setOnClickListener(this);
     }
 
     @Override
@@ -37,7 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.setClass(this, AssetsActivity.class);
             }
                 break;
-
+            case R.id.camera:{
+                intent.setClass(this, CameraFlash.class);
+            }
+            break;
 
         }
         startActivity(intent);

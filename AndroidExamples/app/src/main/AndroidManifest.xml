@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.example">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,6 +24,14 @@
         <activity
             android:name=".intent.IntentActivity"
             android:label="@string/title_activity_intent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".camera.CameraFlash"
+            android:label="@string/title_activity_camera_flash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".intent.IntentActivity2"
+            android:label="@string/title_activity_intent2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

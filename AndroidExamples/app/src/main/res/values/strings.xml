@@ -2,6 +2,12 @@
     <string name="app_name">com.android.example</string>
     <string name="intent">Intent传递对象</string>
     <string name="assets">Assets文件操作</string>
+    <string name="camera">Flash</string>
+    <string name="serial">Serial</string>
+    <string name="parcel">Parcel</string>
+    <string name="json">Json</string>
     <string name="title_activity_assets">AssetsActivity</string>
     <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_camera_flash">CameraFlash</string>
+    <string name="title_activity_intent2">IntentActivity2</string>
 </resources>
