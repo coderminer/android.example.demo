@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">com.android.example</string>
     <string name="intent">Intent传递对象</string>
+    <string name="assets">Assets文件操作</string>
+    <string name="title_activity_assets">AssetsActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
 </resources>
